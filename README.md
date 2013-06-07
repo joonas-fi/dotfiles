@@ -8,9 +8,6 @@ My set of dotfiles.
 	hg clone https://joonas_fi@bitbucket.org/joonas_fi/dotfiles ~/.dotfiles
 	cd ~/.dotfiles
 
-	# Initialize the Git submodules (namely for Vim bundles)
-	# git submodule update --init
-
 	# Set up symlinks
 	./install.sh
 
@@ -21,6 +18,7 @@ My set of dotfiles.
 
 Thanks to Brian for inspiration: 
 
-	https://github.com/brianarn/dotfiles/
-	- idea of using dotfiles as a repo
-	- easily copy-pasteable installation step
+https://github.com/brianarn/dotfiles/
+- idea of using dotfiles as a repo
+- easily copy-pasteable installation step
+
