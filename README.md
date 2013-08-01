@@ -4,6 +4,18 @@ My set of dotfiles.
 
 ## Installation
 
+### Shortest all-in-one command
+
+	curl https://bitbucket.org/joonas_fi/dotfiles/raw/tip/bootstrap.sh | bash
+
+	(IMPORTANT: replace "bash" with "echo" first to make sure the commands are the same as in the All-in-one command)
+
+### Pasteable all-in-one command
+
+	hg clone https://joonas_fi@bitbucket.org/joonas_fi/dotfiles ~/.dotfiles && cd ~/.dotfiles && ./install.sh && if [[ $OLDPWD ]]; then cd $OLDPWD; fi
+
+### Or the same broken down in chunks
+
 	# Clone the repo
 	hg clone https://joonas_fi@bitbucket.org/joonas_fi/dotfiles ~/.dotfiles
 	cd ~/.dotfiles
