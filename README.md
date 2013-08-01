@@ -6,9 +6,9 @@ My set of dotfiles.
 
 ### Shortest all-in-one command
 
-	curl https://bitbucket.org/joonas_fi/dotfiles/raw/tip/bootstrap.sh | bash
+	curl http://go.xs.fi/dotfiles | bash
 
-	(IMPORTANT: replace "bash" with "echo" first to make sure the commands are the same as in the All-in-one command)
+	(IMPORTANT: run curl without piping to bash first to check contents of script!!!)
 
 ### Pasteable all-in-one command
 
