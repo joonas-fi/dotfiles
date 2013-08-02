@@ -6,9 +6,10 @@ My set of dotfiles.
 
 ### Shortest all-in-one command
 
-	curl http://go.xs.fi/dotfiles | bash
+	curl -L http://go.xs.fi/dotfiles | sh
 
-	(IMPORTANT: run curl without piping to bash first to check contents of script!!!)
+	(IMPORTANT: run curl without piping to sh first to check that
+	contents of script equal the all-in-one command below!!)
 
 ### Pasteable all-in-one command
 
