@@ -2,13 +2,6 @@
 #
 # $ curl -L http://go.xs.fi/dotfiles | sh
 
-# Check for presence of Mercurial
-if [ ! -f /usr/bin/hg ]; then
-	echo "error: Mercurial not installed - run 'sudo apt-get install mercurial' or the equivalent of your OS flavor"
-	exit 1
-fi
-
-# Check that .bashrc does not exist
 if [ -f ~/.bashrc ]; then
         echo "~/.bashrc already exists. Either:"
         echo "a) dotfiles already installed or"
