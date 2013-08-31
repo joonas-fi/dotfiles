@@ -11,3 +11,12 @@ fi
 
 ln -s ~/.dotfiles/bashrc ~/.bashrc
 
+# create ~/.bash directory
+mkdir -p ~/.bash
+
+# create an empty_dir file in it so directory is not empty, because .bashrc has
+# "source ~/.bash/*", which fails if directory empty
+# 
+# (cannot be a hidden file, since * does not expand hidden files)
+touch ~/.bash/empty_dir
+
