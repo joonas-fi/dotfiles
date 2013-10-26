@@ -1,0 +1,4 @@
+syntax: glob
+
+.installed_flag
+
