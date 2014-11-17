@@ -21,6 +21,9 @@ fi
 # symlink bashrc from dotfiles to home directory
 ln -s ~/.dotfiles/bashrc ~/.bashrc
 
+# symlink tmux config
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
+
 # create ~/.bash directory for private bash scripts
 mkdir -p ~/.bash
 
